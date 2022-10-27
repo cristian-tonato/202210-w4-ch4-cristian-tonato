@@ -3,7 +3,7 @@ import { createContext } from 'react';
 
 const initialContext: {
     robots: Array<IRobots>;
-    handlerEraser: (deleteName: string) => void;
+    handlerEraser: (deletedName: string) => void;
 } = {
     robots: [],
     handlerEraser: () => undefined,
