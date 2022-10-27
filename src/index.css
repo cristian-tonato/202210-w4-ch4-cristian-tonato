@@ -11,4 +11,5 @@ body {
 main {
     min-height: 70vh;
     padding: 1rem;
+    margin: 1rem;
 }
