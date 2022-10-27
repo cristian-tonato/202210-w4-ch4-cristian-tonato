@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
-
+import {App } from '..//src/infraestructure/app/app';
+//import * as serviceWorker from './serviceWorker';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -10,9 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <Router>
-           
-        </Router>
+        
+        <App/>
+
     </React.StrictMode>
 );
 

@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { RobotsContext } from './context';
-import { robots,IRobots } from "../../feature/models/i.robots";
+import { dataRobots } from "../../feature/models/i.robots";
 
 export function RobotsContextProvider({ children }: { children: JSX.Element }) {
-    const initialRobots= robots;
+    
+    const initialRobots = dataRobots;
     const [robots, setRobots] = useState(initialRobots);
 
+  
     const handlerEraser = (deletedName: string) => {
         setRobots(robots.filter((item) => item.name !== deletedName));
     };

@@ -6,7 +6,7 @@ export interface IRobots {
     creationDate: number;
 }
 
-export const robots = [
+export const dataRobots = [
     {
         name: 'Bender',
         img: 'http://2.bp.blogspot.comhttps://sm.ign.com/ign_es/screenshot/default/bnder_hqzb.jpg/-Rj3cFWi9b2M/UTecLM8N9_I/AAAAAAAAAEo/GFCLKtR2L9Y/s1600/Bender.jpg',
